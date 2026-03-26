@@ -9,9 +9,11 @@ import java.util.ArrayList;
 
 public class GestorEstudiantes {
 private ArrayList<Estudiante> lista = new ArrayList<>();
+
 public void agregarEstudiante(Estudiante e) {
 lista.add(e);
 }
+
 public void listarEstudiantes() {
 if (lista.isEmpty()) {
 System.out.println("No hay estudiantes registrados.");
@@ -29,5 +31,6 @@ return e;
 }
 }
 return null;
+
 }
 }
